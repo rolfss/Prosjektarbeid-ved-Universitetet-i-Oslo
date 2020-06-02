@@ -2,6 +2,7 @@
 
 ## Utførlig om appens struktur, samt prosessdokumentasjon
 
+PDF tilgjengelig her: https://drive.google.com/file/d/1GNTmQvTJ0eBA21pj2tDK_VxbtLRibwV2/view?usp=sharing
 
 ## Hvordan kjøre appen
 
