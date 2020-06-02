@@ -4,6 +4,8 @@
 
 PDF tilgjengelig her: https://drive.google.com/file/d/1GNTmQvTJ0eBA21pj2tDK_VxbtLRibwV2/view?usp=drivesdk
 
+
+
 ## Hvordan kjøre appen
 
 Appen må kjøres via Android Studio, enten gjennom "virtual device", eller ved å installere programmet på en android-mobil via USB. 
