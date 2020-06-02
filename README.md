@@ -1,4 +1,15 @@
-# IN2000 - Team 36 prosjekt
+# IN2000 - Team 36 prosjekt - "EZ-fly"
+
+## Utførlig om appens struktur, samt prosessdokumentasjon
+
+
+## Hvordan kjøre appen
+
+Appen må kjøres via Android Studio, enten gjennom "virtual device", eller ved å installere programmet på en androidmobil via USB.
+
+## VIKTIG: Man må legge inn en personlig Google Maps API-nøkkel for å benytte seg av appens kartfunksjon
+
+For dette, følg de enkle instruksene som finnes i denne pathen i prosjektet: app/src/debug/res/values/google_maps_api.xml
 
 ## Dokumentasjon
 
