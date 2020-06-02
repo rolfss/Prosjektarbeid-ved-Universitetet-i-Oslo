@@ -12,27 +12,6 @@ Appen må kjøres via Android Studio, enten gjennom "virtual device", eller ved 
 
 For dette, følg de enkle instruksene som finnes i denne pathen i prosjektet: app/src/debug/res/values/google_maps_api.xml
 
-## Arbeidsfordeling
-
-Her en oversikt over ansvarsområder (personen tar avgjørelser innen tema).
-
-### Raport og skriving
-- Rapport og skrive-lead: Rolf
-
-### Kode
-- Tech lead: Tor
-
-#### Backend
-
-- Met api: Johannes
-- Zones (no-fly etc.): Philip
-- Drones: Olav
-
-#### Frontend
-
-- Design, ikoner etc.: Al Hareth
-- Brukergrupper, brukerundersøkelser: Rolf
-
 ## Nyttige lenker
 
 ### Tools
