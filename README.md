@@ -14,7 +14,7 @@ For dette, følg de enkle instruksene som finnes i denne pathen i prosjektet: ap
 
 ## Arbeidsfordeling
 
-Her en skisse for hvordan vi kan dele inn arbeidet.
+Her en oversikt over ansvarsområder (personen tar avgjørelser innen tema).
 
 ### Raport og skriving
 - Rapport og skrive-lead: Rolf
