@@ -8,7 +8,7 @@ PDF tilgjengelig her: https://drive.google.com/file/d/1GNTmQvTJ0eBA21pj2tDK_Vxbt
 
 Appen må kjøres via Android Studio, enten gjennom "virtual device", eller ved å installere programmet på en android-mobil via USB. 
 
-VIKTIG: Man må legge inn en personlig Google Maps API-nøkkel for å benytte seg av appens kartfunksjon
+### VIKTIG: Man må legge inn en personlig Google Maps API-nøkkel for å benytte seg av appens kartfunksjon
 
 For dette, følg de enkle instruksene som finnes i denne pathen i prosjektet: app/src/debug/res/values/google_maps_api.xml
 
