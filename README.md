@@ -6,7 +6,7 @@ PDF tilgjengelig her: https://drive.google.com/file/d/1GNTmQvTJ0eBA21pj2tDK_Vxbt
 
 ## Hvordan kjøre appen
 
-Appen må kjøres via Android Studio, enten gjennom "virtual device", eller ved å installere programmet på en androidmobil via USB.
+Appen må kjøres via Android Studio, enten gjennom "virtual device", eller ved å installere programmet på en android-mobil via USB.
 
 ## VIKTIG: Man må legge inn en personlig Google Maps API-nøkkel for å benytte seg av appens kartfunksjon
 
