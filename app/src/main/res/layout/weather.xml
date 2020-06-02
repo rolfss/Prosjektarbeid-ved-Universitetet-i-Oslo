@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:divider="@drawable/empty_tall_divider"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    android:visibility="visible"
+    app:behavior_peekHeight="55dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/gotoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:src="@android:drawable/ic_menu_compass"
+            android:visibility="visible"
+            android:contentDescription="@string/gaa_til_sted" />
+
+        <TextView
+            android:id="@+id/locationNameView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/WXML_placeholderadress"
+            android:textColor="?attr/colorAccent"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/lagreLokasjonsKnapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:src="@android:drawable/star_big_off"
+            android:visibility="visible"
+            android:contentDescription="@string/lagr_sted" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:background="@drawable/daybar_shape"
+        android:orientation="horizontal"
+        android:textColor="?attr/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/dayBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/today"
+                android:layout_width="55dp"
+                android:layout_height="20dp"
+                android:background="@drawable/daybar_button_shape"
+                android:button="@drawable/empty_radio"
+                android:gravity="center"
+                android:text="@string/WXML_man"
+                android:textColor="@color/radio_color" />
+
+            <RadioButton
+                android:id="@+id/tommorow"
+                android:layout_width="55dp"
+                android:layout_height="20dp"
+                android:background="@drawable/daybar_button_shape"
+                android:button="@drawable/empty_radio"
+                android:gravity="center"
+                android:text="@string/WXML_tir"
+                android:textColor="@color/radio_color" />
+
+            <RadioButton
+                android:id="@+id/third"
+                android:layout_width="55dp"
+                android:layout_height="20dp"
+                android:background="@drawable/daybar_button_shape"
+                android:button="@drawable/empty_radio"
+                android:gravity="center"
+                android:text="@string/WXML_ons"
+                android:textColor="@color/radio_color" />
+
+            <RadioButton
+                android:id="@+id/fourth"
+                android:layout_width="55dp"
+                android:layout_height="20dp"
+                android:background="@drawable/daybar_button_shape"
+                android:button="@drawable/empty_radio"
+                android:gravity="center"
+                android:text="@string/WXML_tor"
+                android:textColor="@color/radio_color" />
+
+            <RadioButton
+                android:id="@+id/fifth"
+                android:layout_width="55dp"
+                android:layout_height="20dp"
+                android:background="@drawable/daybar_button_shape"
+                android:button="@drawable/empty_radio"
+                android:gravity="center"
+                android:text="@string/WXML_fre"
+                android:textColor="@color/radio_color" />
+
+            <RadioButton
+                android:id="@+id/sixth"
+                android:layout_width="55dp"
+                android:layout_height="20dp"
+                android:background="@drawable/daybar_button_shape"
+                android:button="@drawable/empty_radio"
+                android:gravity="center"
+                android:text="@string/WXML_loer"
+                android:textColor="@color/radio_color" />
+
+            <RadioButton
+                android:id="@+id/seventh"
+                android:layout_width="55dp"
+                android:layout_height="20dp"
+                android:background="@drawable/daybar_button_shape_no_line"
+                android:button="@drawable/empty_radio"
+                android:gravity="center"
+                android:text="@string/WXML_soen"
+                android:textColor="@color/radio_color" />
+
+        </RadioGroup>
+    </HorizontalScrollView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/hourScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/daybar_shape">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/daybar_shape"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/visiblityText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/WXML_sikt"
+                android:textColor="?attr/colorPrimary" />
+
+            <TextView
+                android:id="@+id/visibilityValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/visiblityText"
+                android:layout_centerHorizontal="true"
+                android:text="@string/WXML_10km"
+                android:textColor="?attr/colorPrimary" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true">
+
+            <SeekBar
+                android:id="@+id/sunGraph"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="2dp"
+                android:maxHeight="7dp"
+                android:progress="20"
+                android:progressDrawable="@drawable/sungraph_drawable"
+                android:splitTrack="false"
+                android:thumb="@drawable/ic_sun">
+
+            </SeekBar>
+
+            <TextView
+                android:id="@+id/sunRiseValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sunGraph"
+                android:layout_marginBottom="3dp"
+                android:layout_marginStart="17dp"
+                android:text="05:55"
+                android:textColor="@color/quantum_orange200"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/sunSetValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sunGraph"
+                android:layout_marginStart="148dp"
+                android:layout_marginBottom="3dp"
+                android:text="22:55"
+                android:textColor="@color/quantum_orange200"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

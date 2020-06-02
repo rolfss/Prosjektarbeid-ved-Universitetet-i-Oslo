@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp"
+    android:clickable="false">
+
+    <RelativeLayout
+        android:id="@+id/droneKort"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/vanntett"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="80dp"
+            android:layout_toEndOf="@id/imageView"
+            android:maxLines="1"
+            android:text="@string/DKXML_vanntett" />
+
+        <TextView
+            android:id="@+id/navn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/imageView"
+            android:maxLines="1"
+            android:text="@string/DKXML_navn"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:id="@+id/vindStyrke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@id/imageView"
+            android:maxLines="1"
+            android:text="@string/DKXML_vindstyrke" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@mipmap/splash_icon" />
+
+        <ImageView
+            android:id="@+id/editKnapp"
+            android:layout_width="17dp"
+            android:layout_height="14dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:clickable="true"
+            app:srcCompat="@drawable/edit_icon" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
