@@ -1,4 +1,4 @@
-# IN2000 - Team 36 prosjekt - "EZ-fly"
+# IN2000 Våren 2020 - Team 36 prosjekt - "EZ-fly"
 
 ## Utførlig om appens struktur, gruppemedlemmer samt prosessdokumentasjon
 
